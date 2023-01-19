@@ -17,11 +17,13 @@ a few pages to demonstrate how routing & the decorator works.
 
 ### Running
 
-You can run ./watch to run the watch script.  This script watches your web application (/src/main/web/**)
+You can run ./watch to run the watch script.  This script watches your web application (/src/main/web/**) and serves
+the application to http://localhost:8080/.  As you update files, you can see the changes update automatically while this script
+is running locally.  
 
 ### Deployment & Security
 
-Deploy scripts are included.  Deployment assumes that your server is set up with Nginx & Haproxy.  The 
+Deploy scripts are included (./deploy & ./buildDeploy).  Deployment assumes that your server is set up with Nginx & Haproxy.  The 
 general idea is that it uses rsync to sync the web application with the remote server.  Nginx does not need to
 reload when the web page updates so running reload pushes new site that is available immediately.
 
