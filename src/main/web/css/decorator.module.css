@@ -1,0 +1,21 @@
+.decorator {
+    height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 100;
+    background: black;
+}
+
+.decoratorItem {
+    cursor: pointer;
+    color: green;
+    flex: 0;
+    white-space: nowrap;
+}
+
+.decoratorItem:hover {
+    background-color: #8AE9C1;
+    border-radius: 10px;
+}

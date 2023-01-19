@@ -1,0 +1,75 @@
+{
+  "name": "hexi-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/css": "^11.7.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@hot-loader/react-dom": "^17.0.1",
+    "@mui/icons-material": "^5.3.0",
+    "@mui/material": "^5.3.0",
+    "@mui/styles": "^5.3.0",
+    "@types/node": "^12.20.27",
+    "@types/react": "^17.0.26",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^5.0.0",
+    "typescript": "^4.4.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "watch": "webpack serve --progress",
+    "build": "webpack --mode=production"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/material-ui": "^0.21.12",
+    "@types/react-router-dom": "^5.3.0",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-env": "^1.16.2",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "@zeit/eslint-config-node": "^0.3.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.0.6",
+    "clean-terminal-webpack-plugin": "^3.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "compression-webpack-plugin": "^9.0.0",
+    "css-loader": "^6.5.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.26.1",
+    "fork-ts-checker-webpack-plugin": "^6.2.13",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "prettier": "2.4.1",
+    "style-loader": "^3.3.1",
+    "typescript-plugin-css-modules": "^2.8.0",
+    "webpack": "^5.47.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.7.3"
+  }
+}

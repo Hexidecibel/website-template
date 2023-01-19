@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "rootDir": "./",
+    "sourceMap": false,
+    "allowJs": false,
+    "keyofStringsOnly": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "resolveJsonModule": true,
+    "lib": ["dom", "es2015"],
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "include": ["src", "global.d.ts"],
+  "files": ["web/src/main/web/Boot.tsx"],
+  "exclude": ["node_modules/**.*"]
+}

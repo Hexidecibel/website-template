@@ -1,0 +1,5 @@
+node_modules
+.idea
+*.iml
+src/main/web/target/*
+node_modules/*

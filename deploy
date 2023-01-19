@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+IP=127.0.0.1
+ssh ubuntu@$IP 'sudo rm -rf /data/www'
+rsync -ahq \
+  --omit-dir-times \
+  --no-perms \
+  --ignore-times \
+  src/main/web/target/classes/web  ubuntu@$IP:~/build
+ssh ubuntu@$IP 'sudo mv ~/build/web /data/www'

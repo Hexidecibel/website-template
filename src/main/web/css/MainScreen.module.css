@@ -1,0 +1,18 @@
+.pageRoot {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    color: white;
+    background: black;
+    overflow-y: scroll;
+    scrollbar-color: black white;
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
